@@ -1,11 +1,13 @@
 export const Header = () => {
   return (
-    <main>
+    <main className="main">
       <div className="left-side">
         <h3>Hellow</h3>
         <h1>I am Mohsin khan</h1>\<h2>Full-stack Web-developer </h2>
-        <a href="#">Hire me</a>
-        <a href="#">Contact me</a>
+        <div className="btn">
+        <a href="#" className="btn-1">Hire me</a>
+        <a href="#" className="btn-2">Contact me</a>
+        </div>
       </div>
       <div className="right-side">
         <img
